@@ -133,4 +133,3 @@ export function App() {
 }
 
 export default App;
-//the app is perfectly fine
