@@ -1,0 +1,28 @@
+{
+  "appId": "36db7660-78ac-424b-bf30-c8fe36fb9727",
+  "appDisplayName": "App From Scratch",
+  "description": null,
+  "environmentId": "56cc9a17-d268-edf7-9c04-a259c07ffe09",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "logoPath": "Default",
+  "localAppUrl": "http://localhost:3000/",
+  "region": "prod",
+  "connectionReferences": {},
+  "databaseReferences": {
+    "default.cds": {
+      "state": "Configured",
+      "instanceUrl": "https://manojmanedev.crm.dynamics.com/",
+      "webApiVersion": "v9.0",
+      "dataSources": {
+        "contacts": {
+          "entitySetName": "contacts",
+          "logicalName": "contact",
+          "isHidden": false
+        }
+      },
+      "version": "v9.0",
+      "environmentVariableName": ""
+    }
+  }
+}
